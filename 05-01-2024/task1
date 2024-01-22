@@ -1,0 +1,63 @@
+# def add():
+#     print("addition")
+#     a=int(input("Enter your first no:"))
+#     b=int(input("Enter your second no"))
+#     print(a+b)
+# add()
+
+# def sub():
+#     print("subtraction")
+#     a=int(input("Enter first input:"))
+#     b=int(input("Enter second input:"))
+#     c=a-b
+#     print(c)
+# sub()
+# def list():
+#     print("odd or even")
+#     a=int(input("enter your no:"))
+#     if a%2==0:
+#         print("a is even number")
+#     else:
+#         print("a i odd number")
+list()
+# def list(b):
+#     print("odd or even")
+#     if b%2==0:
+#         print("a is even number")
+#     else:input
+#         print("a i odd number")
+# a=int(input("enter you(r no:"))
+# list(a)
+# def findpassorfail(input):
+#     print("passorfail")
+#     if input>35:
+#         print("pass")
+#     else:
+#         print("fail")
+    
+
+
+# num=int(input("Enter your no:"))
+# findpassorfail(num)
+
+# s_username="EMC"
+# s_password="123"
+# user=input("Enter your input:")
+# password=input("Enter your input:")
+# def validate():
+#     if (s_username==user and s_password==password):
+#         print("true")
+#     else:
+#         print("false")
+# validate()
+a=int(input("a:"))
+b=int(input("b:"))
+c=int(input("c:"))
+def add(r1,r2):
+    return(r1+r2)
+# a=int(input("a:"))
+# b=int(input("b:"))
+# c=int(input("c:"))
+added=add(a,b)
+result=added*c
+print(result)

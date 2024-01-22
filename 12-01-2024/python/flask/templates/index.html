@@ -1,0 +1,47 @@
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<ol>{% for i in itemList %}
+<li>{{i}}</li>
+{%endfor%}
+</ol>
+<form action="/create",method="POST">
+    
+    <label >item</label>
+    <input type="text" name="item_name" />
+
+    <input type="submit" value="Submit" />
+
+
+
+
+</form>
+</body>
+</html> -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        
+    {% for i in range (itemList|length) %}
+        <li>{{itemList[i|int]}} <a href="/deltodo/{{itemList[i|int]}}">delete</a> <a href="/updatetodo/{{i}}">update</a></li>
+    {% endfor %}
+
+    </ul>
+    <form action="/todo" method="POST">
+    
+        
+        <input type="text" name="item_name" />
+    
+        <input type="submit" value="submit" />
+    </form>
+</body>
+</html>

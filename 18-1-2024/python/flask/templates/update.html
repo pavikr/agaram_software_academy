@@ -1,0 +1,15 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="{{request.path}}" method="POST">
+    <input type="number" name="emp_no" value="{{value.e_no}}" />
+    <input type="text" name="emp_name" value="{{value.e_name}}" /> 
+    <input type="text" name="emp_position" value="{{value.position}}" />
+    <input type="submit" value="update"/>
+ </form>
+</body>
+</html>
